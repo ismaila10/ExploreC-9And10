@@ -1,14 +1,7 @@
 ﻿using ExploreCsharp9And10;
-Console.WriteLine("Hello, World!");
 
-// on peut néanmoins créer une méthode locale (possible depuis la verson 7 de C#)
-void myMethode()
-{
-    Console.WriteLine("Top");
-}
+// vous pouvez omettre le type dans une new expression lorsque le type de l’objet créé est déjà connu. L’utilisation la plus courante est dans les déclarations de champ :
+List<Classe1> classes = new();
+Classe1 classes1 = new() { Name = "toto", Age = 10 };
+Dictionary<string, object> _properties = new();
 
-// on peut également créer une méthode static locale (possible depuis la verson 8 de C#)
-static int myMethode2()
-{
-    return 1;
-}

@@ -8,6 +8,8 @@ namespace ExploreCsharp9And10
 {
     public record Classe1
     {
+        public string Name { get; set; }
+        public int Age { get; set; }
         public void myMethode()
         {
             object a = null;
