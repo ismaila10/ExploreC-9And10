@@ -8,21 +8,16 @@ namespace ExploreCsharp9And10
 {
     public record Classe1
     {
-        public string Data { get; init; }
-        public int Value { get; init; }
-        public DateTime Date { get; init; }
-    }
-
-    record Class2
-    {
-        void myMethod()
+        public void mymethode()
         {
-            var c = new Classe1 { Data = "toto", Value = 42, Date = DateTime.UtcNow };
+            object a = null;
+            //C# offre la possbilité de redéfinir les opèrateur, c à d que le '==' sur un objet que tu reçois en params c pas sûr que tu vas appeler ReferenceEquals(par défaut)
+            // tu t'exposes à un risque de dire o lieu de tester vraiment si mon objet pointe sur du néant , d'utiliser un opèrateur qui a été redéfini
+            if (a == null)
+            {
 
-            // with expression crée une nouvelle instance d’enregistrement qui est une copie d’une instance d’enregistrement existante, avec les propriétés et les champs spécifiés modifiés.
-            var c2 = c with { Value = 47 };
-
-            c.Equals(c2);  // false
+            }
         }
     }
 }
+
