@@ -15,9 +15,12 @@ namespace ExploreCsharp9And10
     {
         void myMethod()
         {
-            // init permet de créer une propriété qui a le mm comportement que le readonly sauf que pas obligé de créer un constructeur pour passer la valeur constructeur
+            // init permet de créer une propriété qui a le mm comportement que le readonly sauf que pas obligé de créer un
+            // constructeur pour passer la valeur constructeur
             var c = new Classe1 { Nombre = 10 };
 
+            // parcontre on ne peut pas affecter de valeur à la propriété après l'initialisation
+            c.Nombre = 10;
         }
     }
 }
