@@ -6,37 +6,21 @@ using System.Threading.Tasks;
 
 namespace ExploreCsharp9And10
 {
-    public record Classe1
+    internal struct Adresse
     {
-        public string Name { get; set; }
-        public int Age { get; set; }
-        public DateTime DateCreation { get; set; }
+        public string Rue { get; set; } = "";
+        public string CodePostal { get; set; } = "";
 
-        public void myMethode()
+        public Adresse(string rue, string codePostal)
         {
-            object a = null;
-            // Utilisation du pattern matching
-            if (a is null)
-            {
-
-            }
-            if(a is not null) // avant (!(a is null))
-            {
-
-            }
-
-            decimal d = 20;
-
-            var x = d switch
-            {
-                <10 => "inférieur à 10",
-                >= 11 and < 20 => "",
-                _ => "defaut"
-            };
-
+            Rue = rue;
+            CodePostal = codePostal;
         }
 
-
+        // Possible depuis C#10 à condition d'initialiser les propriétés soit à la définition(cme c le cas ici) soit ds le constructeur par défaut ci dessous
+        public Adresse()
+        {
+        }
     }
 }
 
