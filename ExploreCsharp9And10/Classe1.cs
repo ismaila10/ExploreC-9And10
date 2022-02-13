@@ -8,8 +8,8 @@ namespace ExploreCsharp9And10
 {
     internal struct Adresse
     {
-        public string Rue { get; set; } = "";
-        public string CodePostal { get; set; } = "";
+        public string Rue { get; init; } = "";
+        public string CodePostal { get; init; } = "";
 
         public Adresse(string rue, string codePostal)
         {
