@@ -1,5 +1,8 @@
 ﻿using ExploreCsharp9And10;
+Console.WriteLine("Hello, World!");
 
-var c = new Classe1 { Data = "toto", Value = 42, Date = DateTime.UtcNow };
+// le mot clé private est souligné pck je suis toujours dans le cas de ma méthode Main 
+private void myMethode()
+{
 
-Console.WriteLine(c);
+}
