@@ -8,20 +8,16 @@ namespace ExploreCsharp9And10
 {
     public class Classe1
     {
-        public int Nombre { get; }
-
-        public Classe1(int nombre)
-        {
-            Nombre = nombre;
-        }
+        public int Nombre { get; init; }
     }
 
     class Class2
     {
         void myMethod()
         {
-            // Avant impossible d'utiliser un initialiseur sans mettre un setter en public et enlever le constructeur au niveau de Class1
+            // init permet de créer une propriété qui a le mm comportement que le readonly sauf que pas obligé de créer un constructeur pour passer la valeur constructeur
             var c = new Classe1 { Nombre = 10 };
+
         }
     }
 }
