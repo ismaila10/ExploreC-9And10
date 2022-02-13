@@ -1,0 +1,15 @@
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\bin\Debug\net6.0\ExploreCsharp9And10.exe
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\bin\Debug\net6.0\ExploreCsharp9And10.deps.json
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\bin\Debug\net6.0\ExploreCsharp9And10.runtimeconfig.json
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\bin\Debug\net6.0\ExploreCsharp9And10.dll
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\bin\Debug\net6.0\ref\ExploreCsharp9And10.dll
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\bin\Debug\net6.0\ExploreCsharp9And10.pdb
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\obj\Debug\net6.0\ExploreCsharp9And10.csproj.AssemblyReference.cache
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\obj\Debug\net6.0\ExploreCsharp9And10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\obj\Debug\net6.0\ExploreCsharp9And10.AssemblyInfoInputs.cache
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\obj\Debug\net6.0\ExploreCsharp9And10.AssemblyInfo.cs
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\obj\Debug\net6.0\ExploreCsharp9And10.csproj.CoreCompileInputs.cache
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\obj\Debug\net6.0\ExploreCsharp9And10.dll
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\obj\Debug\net6.0\ref\ExploreCsharp9And10.dll
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\obj\Debug\net6.0\ExploreCsharp9And10.pdb
+C:\Users\lodia\source\repos\ExploreCsharp9And10\ExploreCsharp9And10\obj\Debug\net6.0\ExploreCsharp9And10.genruntimeconfig.cache

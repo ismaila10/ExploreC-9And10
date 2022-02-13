@@ -19,7 +19,8 @@ namespace ExploreCsharp9And10
         {
             var c = new Classe1 { Data = "toto", Value = 42, Date = DateTime.UtcNow };
 
-            // with expression crée une nouvelle instance d’enregistrement qui est une copie d’une instance d’enregistrement existante, avec les propriétés et les champs spécifiés modifiés.
+            // with expression crée une nouvelle instance d’enregistrement qui est une copie d’une instance d’enregistrement existante, avec les
+            // propriétés et les champs spécifiés modifiés.
             var c2 = c with { Value = 47 };
 
             c.Equals(c2);  // false
